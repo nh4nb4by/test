@@ -1,0 +1,10 @@
+---
+version: 2
+plan:
+  project-key: "PROJ"
+  key: "PLAN"
+  name: "My Build Plan"
+  stages:
+    - jobs:
+        - scripts:
+            - echo "Hello, Bamboo!"
